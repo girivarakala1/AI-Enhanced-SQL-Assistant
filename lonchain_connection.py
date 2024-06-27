@@ -23,7 +23,7 @@ mydb = sql.connect(
 )
 
 engine = create_engine('mysql+mysqlconnector://root:@localhost/online_store')
-SECRET_KEY = "AIzaSyAyD-fzPLMtBx4GK4J9HWHn-Mqi77In3GU"
+SECRET_KEY = "My  Secret Key "
 
 
 def format_response(sql_result):
